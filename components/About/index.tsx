@@ -96,7 +96,7 @@ const About = () => {
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
                     Digital Transformation
                   </h3>
-                  <p>Modernize legacy systems and enable digital-first business processes.</p>
+                  <p>Modernize legacy systems and automate the business processes.</p>
                 </div>
               </div>
             </motion.div>

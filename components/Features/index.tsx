@@ -15,7 +15,7 @@ const Feature = () => {
             headerInfo={{
               title: "SERVICES WE OFFER",
               subtitle: "",
-              description: `We offer a range of services to help you build intelligent, scalable, and future-ready digital products`,
+              description: `We build AI-powered services to make your business intelligent and effective.`,
             }}
           />
           {/* <!-- Section Title End --> */}
