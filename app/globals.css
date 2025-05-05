@@ -8,25 +8,36 @@
 
   --color-current: currentColor;
   --color-transparent: transparent;
-  --color-stroke: #eeeeee;
-  --color-strokedark: #2d2f40;
-  --color-hoverdark: #252a42;
-  --color-titlebg: #adfff8;
-  --color-titlebg2: #ffeac2;
-  --color-titlebgdark: #46495a;
-  --color-btndark: #292e45;
-  --color-white: #ffffff;
-  --color-black: #181c31;
-  --color-blackho: #2c3149;
-  --color-blacksection: #1c2136;
-  --color-primary: #006bff;
-  --color-primaryho: #0063ec;
-  --color-meta: #20c5a8;
-  --color-waterloo: #757693;
-  --color-manatee: #999aa1;
-  --color-alabaster: #fbfbfb;
-  --color-zumthor: #edf5ff;
-  --color-socialicon: #d1d8e0;
+/* Neutrals */
+  --color-stroke: #f5e8dc;           /* Light beige similar to text */
+  --color-strokedark: #1a1819;       /* Slightly deeper than background */
+  --color-hoverdark: #221f20;        /* Hover shade of charcoal */
+  --color-titlebg: #fbeada;          /* Muted beige background variant */
+  --color-titlebg2: #ffdfc0;         /* Lighter cream/orange tint */
+  --color-titlebgdark: #3a3534;      /* Dark beige-toned gray */
+
+  /* Buttons / Backgrounds */
+  --color-btndark: #292425;          /* Button background in dark mode */
+
+  /* Base Colors */
+  --color-white: #f6eadf;            /* Soft white-beige (logo text) */
+  --color-black: #121212;            /* Near-black (background) */
+  --color-blackho: #1f1f1f;
+  --color-blacksection: #181818;
+
+  /* Primary Colors */
+  --color-primary: #f33c00;          /* Red-orange from swoosh */
+  --color-primaryho: #d13300;        /* Hover/darker variant */
+
+  /* Accent / Meta */
+  --color-meta: #ffdfc0;             /* Reuse a light tone as secondary highlight */
+
+  /* Grays & Neutrals */
+  --color-waterloo: #837e7b;
+  --color-manatee: #a8a4a2;
+  --color-alabaster: #fcf9f7;
+  --color-zumthor: #f5f0ec;
+  --color-socialicon: #c8bcb7;
 
   --text-metatitle: 12px, 20px;
   --text-sectiontitle: 14px, 22px;
