@@ -1,6 +1,10 @@
 "use client";
 import Image from "next/image";
 
+export const launchCalendlyPopup = () => {
+  (window as any).Calendly?.initPopupWidget({ url: "https://calendly.com/ashan-enlear/30min" });
+};
+
 const Hero = () => {
   return (
     <section className="relative flex items-center justify-center min-h-[70vh] bg-gradient-to-b from-[#f5f8ff] to-white text-center overflow-hidden">
@@ -12,12 +16,13 @@ const Hero = () => {
         <p className="mb-10 text-lg text-gray-700 dark:text-gray-200 md:text-xl">
           We build AI-powered software that transforms businesses. Partner with us to create intelligent, scalable, and future-ready digital products.
         </p>
-        <a
-          href="/contact" // Change this to your scheduling link (e.g., Calendly)
+        <button
+          type="button"
+          onClick={() => launchCalendlyPopup()}
           className="inline-block rounded-full bg-primary px-8 py-4 text-lg font-semibold text-white shadow-lg transition-colors duration-300 hover:bg-primaryho focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
         >
           Schedule a Call
-        </a>
+        </button>
       </div>
     </section>
   );
