@@ -7,15 +7,14 @@ export const launchCalendlyPopup = () => {
 
 const Hero = () => {
   return (
-    <section className="relative flex items-center justify-center min-h-[70vh] bg-gradient-to-b from-[#f5f8ff] to-white text-center overflow-hidden">
+    <section className="relative flex items-center justify-center min-h-[50vh] bg-gradient-to-b from-[#f5f8ff] to-white text-center overflow-hidden">
       {/* Optional: Decorative background shapes can be added here if desired */}
-      <div className="mx-auto max-w-2xl px-4 py-24 md:py-32">
+      <div className="mx-auto max-w-2xl px-4 py-14 md:py-32">
         <h1 className="mb-6 text-4xl font-extrabold leading-tight text-black dark:text-white md:text-5xl lg:text-6xl">
-          <span className="text-black">Software Studio</span> Crafting Intelligent Digital Solutions
+          <span className="text-black">Crafting AI Solutions</span>
         </h1>
         <p className="mb-10 text-lg text-gray-700 dark:text-gray-200 md:text-xl">
-          We build AI-powered software that transforms businesses. Partner with us to create intelligent, scalable, and future-ready digital products.
-        </p>
+         That transforms businesses to be more productive and efficient. </p>
         <button
           type="button"
           onClick={() => launchCalendlyPopup()}
