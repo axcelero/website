@@ -3,27 +3,59 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+const teamMembers = [
+  {
+    name: "Matheus Ferrero",
+    role: "Marketing Expert",
+    image: "/images/team/matheus-ferrero.jpg",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+  {
+    name: "Eva Hudson",
+    role: "Blockchain Developer",
+    image: "/images/team/eva-hudson.jpg",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+  {
+    name: "Jackie Sanders",
+    role: "Creative Designer",
+    image: "/images/team/jackie-sanders.jpg",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+  {
+    name: "Jackie Sanders",
+    role: "SEO Expert",
+    image: "/images/team/jackie-sanders2.jpg",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+];
+
 const FunFact = () => {
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
       <section className="px-4 py-20 md:px-8 lg:py-22.5 2xl:px-0">
-        <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg bg-linear-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-linear-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5">
-          <Image
-            width={335}
-            height={384}
-            src="/images/shape/shape-04.png"
-            alt="Man"
-            className="absolute -left-15 -top-25 -z-1 lg:left-0"
-          />
-          <Image
-            width={132}
-            height={132}
-            src="/images/shape/shape-05.png"
-            alt="Doodle"
-            className="absolute bottom-0 right-0 -z-1"
-          />
-
+        <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-secondary to-white py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5">
           <Image
             fill
             src="/images/shape/shape-dotted-light-02.svg"
@@ -37,104 +69,39 @@ const FunFact = () => {
             className="absolute left-0 top-0 -z-1 hidden dark:block"
           />
 
-          <motion.div
-            variants={{
-              hidden: {
-                opacity: 0,
-                y: -20,
-              },
-
-              visible: {
-                opacity: 1,
-                y: 0,
-              },
-            }}
-            initial="hidden"
-            whileInView="visible"
-            transition={{ duration: 1, delay: 0.1 }}
-            viewport={{ once: true }}
-            className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
-          >
+          <div className="mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2">
+            <span className="block text-primary font-semibold uppercase mb-2">Our Team</span>
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              Trusted by Global Companies.
+              Meet Our Team
             </h2>
             <p className="mx-auto lg:w-11/12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              We are a diverse group of professionals with expertise in AI, cloud, UI&UX design, marketing, and more. Get to know the people who drive our innovation and success.
             </p>
-          </motion.div>
+          </div>
 
-          <div className="flex flex-wrap justify-center gap-8 lg:gap-42.5">
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.5 }}
-              viewport={{ once: true }}
-              className="animate_top text-center"
-            >
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                500K
-              </h3>
-              <p className="text-lg lg:text-para2">World Wide Clients</p>
-            </motion.div>
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.7 }}
-              viewport={{ once: true }}
-              className="animate_top text-center"
-            >
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                1M+
-              </h3>
-              <p className="text-lg lg:text-para2">Downloads</p>
-            </motion.div>
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.8 }}
-              viewport={{ once: true }}
-              className="animate_top text-center"
-            >
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                865
-              </h3>
-              <p className="text-lg lg:text-para2">Winning Award</p>
-            </motion.div>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 px-4 md:px-8">
+            {teamMembers.map((member, idx) => (
+              <div key={idx} className="bg-white dark:bg-blacksection rounded-lg p-6 text-center shadow-md">
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    width={180}
+                    height={180}
+                    className="rounded-lg object-cover h-44 w-44 mx-4"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-black dark:text-white mb-1">{member.name}</h3>
+                <p className="text-gray-600 dark:text-gray-300 mb-3">{member.role}</p>
+                <div className="flex justify-center gap-3">
+                  {member.socials.map((social, i) => (
+                    <a key={i} href={social.url} className="text-gray-400 hover:text-primary" target="_blank" rel="noopener noreferrer">
+                      <i className={`fab ${social.icon} text-lg`}></i>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
