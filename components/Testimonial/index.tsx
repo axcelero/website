@@ -1,88 +1,61 @@
 "use client";
-import SectionHeader from "../Common/SectionHeader";
+import Image from "next/image";
 
-import { Autoplay, Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Swiper, SwiperSlide } from "swiper/react";
+const testimonials = [
+  {
+    name: "Jason Keys",
+    title: "CEO & Founder @ Dreampeet.",
+    image: "/images/testimonials/jason-keys.jpg",
+    text: "I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys.",
+  },
+  {
+    name: "Mariya Merry",
+    title: "CEO & Founder @ Betex.",
+    image: "/images/testimonials/mariya-merry.jpg",
+    text: "I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys.",
+  },
+  {
+    name: "Andria Jolly",
+    title: "CEO & Founder @ CryptoX.",
+    image: "/images/testimonials/andria-jolly.jpg",
+    text: "I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys.",
+  },
+  {
+    name: "Devid Willium",
+    title: "CEO & Founder @ Coinbase.",
+    image: "/images/testimonials/devid-willium.jpg",
+    text: "I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys.",
+  },
+];
 
-import { motion } from "framer-motion";
-import SingleTestimonial from "./SingleTestimonial";
-import { testimonialData } from "./testimonialData";
-
-const Testimonial = () => {
-  return (
-    <>
-      <section>
-        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
-          {/* <!-- Section Title Start --> */}
-          <div className="animate_top mx-auto text-center">
-            <SectionHeader
-              headerInfo={{
-                title: `TESTIMONIALS`,
-                subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
-              }}
-            />
+const Testimonials = () => (
+  <section className="bg-[#f8f9ff] py-20 px-4 md:px-8">
+    <div className="max-w-4xl mx-auto text-center mb-12">
+      <span className="block text-primary font-semibold uppercase mb-2">Testimonials</span>
+      <h2 className="text-4xl font-bold mb-4">What Our Client Say's</h2>
+      <p className="text-gray-600 max-w-2xl mx-auto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.
+      </p>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {testimonials.map((t, idx) => (
+        <div key={idx} className="bg-white rounded-xl shadow p-8 flex flex-col md:flex-row items-start gap-6">
+          <Image
+            src={t.image}
+            alt={t.name}
+            width={64}
+            height={64}
+            className="rounded-full object-cover"
+          />
+          <div>
+            <h3 className="font-semibold text-lg text-black">{t.name}</h3>
+            <p className="text-gray-500 text-sm mb-2">{t.title}</p>
+            <p className="text-gray-700 text-base">“{t.text}”</p>
           </div>
-          {/* <!-- Section Title End --> */}
         </div>
+      ))}
+    </div>
+  </section>
+);
 
-        <motion.div
-          variants={{
-            hidden: {
-              opacity: 0,
-              y: -20,
-            },
-
-            visible: {
-              opacity: 1,
-              y: 0,
-            },
-          }}
-          initial="hidden"
-          whileInView="visible"
-          transition={{ duration: 1, delay: 0.1 }}
-          viewport={{ once: true }}
-          className="animate_top mx-auto mt-15 max-w-c-1235 px-4 md:px-8 xl:mt-20 xl:px-0"
-        >
-          {/* <!-- Slider main container --> */}
-          <div className="swiper testimonial-01 mb-20 pb-22.5">
-            {/* <!-- Additional required wrapper --> */}
-            <Swiper
-              spaceBetween={50}
-              slidesPerView={2}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-              }}
-              modules={[Autoplay, Pagination]}
-              breakpoints={{
-                // when window width is >= 640px
-                0: {
-                  slidesPerView: 1,
-                },
-                // when window width is >= 768px
-                768: {
-                  slidesPerView: 2,
-                },
-              }}
-            >
-              {testimonialData.map((review) => (
-                <SwiperSlide key={review?.id}>
-                  <SingleTestimonial review={review} />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </motion.div>
-      </section>
-    </>
-  );
-};
-
-export default Testimonial;
+export default Testimonials;
