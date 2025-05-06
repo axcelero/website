@@ -68,7 +68,7 @@ const teamMembers = [
     name: "Amir Shalev",
     role: "Chief UI/UX Officer",
     country: "Germany",
-    image: "/images/team/chameera.png",
+    image: "/images/team/amir.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
