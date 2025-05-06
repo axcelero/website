@@ -255,7 +255,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <ul className="flex items-center gap-8">
+              {/* <ul className="flex items-center gap-8">
                 <li>
                   <a href="#" className="hover:text-primary">
                     English
@@ -271,7 +271,7 @@ const Footer = () => {
                     Support
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </motion.div>
 
             <motion.div
@@ -293,7 +293,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Axcelero. All rights reserved
               </p>
             </motion.div>
 

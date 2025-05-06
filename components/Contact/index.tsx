@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
-      <section id="support" className="px-4 md:px-8 2xl:px-0">
+      <section id="support" className="px-4 md:px-8 2xl:px-0 mb-20">
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-linear-to-t from-secondary to-white dark:bg-linear-to-t dark:to-[#252A42]"></div>
           <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
@@ -174,21 +174,23 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
-              <h2 className="mb-12.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle1">
+              <h2 className="mb-10 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle1">
                 Find us
               </h2>
-
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Our Location
+                  Norway Office
                 </h3>
-                <p className="mb-2">
-                  <strong>Norway Office</strong><br />
-                  Hulderveien 20, 9303 Silsand, Norway
-                </p>
                 <p>
-                  <strong>Sri Lanka Office</strong><br />
-                  29/13 Uyana Road Moratuwa Sri Lanka
+                Hulderveien 20, 9303 Silsand, Norway
+                </p>
+              </div>
+              <div className="5 mb-7">
+                <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
+                  Sri Lanka Office
+                </h3>
+                <p>
+                29/13 Uyana Road Moratuwa Sri Lanka
                 </p>
               </div>
               <div className="5 mb-7">
