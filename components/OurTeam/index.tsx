@@ -50,7 +50,7 @@ const teamMembers = [
   },
 ];
 
-const FunFact = () => {
+const OurTeam = () => {
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
@@ -110,4 +110,4 @@ const FunFact = () => {
   );
 };
 
-export default FunFact;
+export default OurTeam;

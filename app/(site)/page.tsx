@@ -4,7 +4,7 @@ import Brands from "@/components/Brands";
 import Feature from "@/components/Features";
 import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
-import FunFact from "@/components/FunFact";
+import OurTeam from "@/components/OurTeam";
 import Integration from "@/components/Integration";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
@@ -26,7 +26,7 @@ export default function Home() {
       <Hero />
       {/* <Brands /> */}
       <Feature />
-      <FunFact />
+      <OurTeam />
       <CTA />
       <Testimonial />
       {/* <Pricing /> */}
