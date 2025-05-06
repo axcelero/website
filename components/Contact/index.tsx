@@ -174,30 +174,37 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
-              <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+              <h2 className="mb-12.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle1">
                 Find us
               </h2>
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Our Loaction
+                  Our Location
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p className="mb-2">
+                  <strong>Norway Office</strong><br />
+                  Hulderveien 20, 9303 Silsand, Norway
+                </p>
+                <p>
+                  <strong>Sri Lanka Office</strong><br />
+                  29/13 Uyana Road Moratuwa Sri Lanka
+                </p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="mailto:hello@axcelero.com">hello@axcelero.com</a>
                 </p>
               </div>
               <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Phone Number
                 </h4>
-                <p>
-                  <a href="#">+009 42334 6343 843</a>
+                <p className="mb-2">
+                  <a href="tel:+4795216433">+47 952 16 433</a>
                 </p>
               </div>
             </motion.div>

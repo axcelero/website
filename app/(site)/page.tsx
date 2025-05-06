@@ -30,9 +30,9 @@ export default function Home() {
       {/* <CTA /> */}
       {/* <Testimonial /> */}
       {/* <Pricing /> */}
-      <FAQ />
+      {/* <FAQ /> */}
       <Contact />
-      <Blog />
+      {/* <Blog /> */}
     </main>
   );
 }
