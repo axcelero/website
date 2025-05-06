@@ -1,10 +1,10 @@
 import React from "react";
-import { Feature } from "@/types/feature";
+import { Service } from "@/types/service";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, description } = feature;
+const SingleFeature = ({ service }: { service: Service }) => {
+  const { icon, title, description } = service;
 
   return (
     <>

@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
-import Feature from "@/components/Features";
+import Services from "@/components/Services";
 import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
 import OurTeam from "@/components/OurTeam";
@@ -25,7 +25,7 @@ export default function Home() {
     <main>
       <Hero />
       {/* <Brands /> */}
-      <Feature />
+      <Services />
       <OurTeam />
       <CTA />
       <Testimonial />

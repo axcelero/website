@@ -1,6 +1,6 @@
-import { Feature } from "@/types/feature";
+import { Service } from "@/types/service";
 
-const featuresData: Feature[] = [
+const servicesData: Service[] = [
   {
     id: 1,
     icon: "/images/icon/icon-01.svg",
@@ -45,4 +45,4 @@ const featuresData: Feature[] = [
   },
 ];
 
-export default featuresData;
+export default servicesData;
