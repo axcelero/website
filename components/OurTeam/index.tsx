@@ -8,7 +8,7 @@ const teamMembers = [
     name: "Kjetil Odin Johnsen",
     role: "Chief Executive Officer",
     country: "Norway",
-    image: "/images/team/kjetil.jpg",
+    image: "/images/team/kjetil.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -20,7 +20,7 @@ const teamMembers = [
     name: "Ståle B. Olsen",
     role: "Chief Operating Officer",
     country: "Norway",
-    image: "/images/team/stale.jpg",
+    image: "/images/team/stale.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -32,7 +32,7 @@ const teamMembers = [
     name: "Ashan Fernando",
     role: "Chief Technology Officer",
     country: "Sri Lanka",
-    image: "/images/team/ashan.jpg",
+    image: "/images/team/ashan.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -44,7 +44,7 @@ const teamMembers = [
     name: "Eden Ella",
     role: "Chief AI Officer",
     country: "Israel",
-    image: "/images/team/eden.jpg",
+    image: "/images/team/eden.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -56,7 +56,7 @@ const teamMembers = [
     name: "Manoj Fernando",
     role: "Chief Architect",
     country: "Sri Lanka",
-    image: "/images/team/manoj.jpg",
+    image: "/images/team/manoj.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -68,7 +68,7 @@ const teamMembers = [
     name: "Amir Shalev",
     role: "Chief UI/UX Officer",
     country: "Germany",
-    image: "/images/team/chameera.jpg",
+    image: "/images/team/chameera.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -80,7 +80,7 @@ const teamMembers = [
     name: "Chameera Dulanga",
     role: "Head of Engineering",
     country: "Sri Lanka",
-    image: "/images/team/chameera.jpg",
+    image: "/images/team/chameera.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -92,7 +92,7 @@ const teamMembers = [
     name: "Nipuni Arunodi",
     role: "Head of Finance",
     country: "Sri Lanka",
-    image: "/images/team/nipuni.jpg",
+    image: "/images/team/nipuni.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
