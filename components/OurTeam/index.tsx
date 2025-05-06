@@ -5,9 +5,10 @@ import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    name: "Matheus Ferrero",
-    role: "Marketing Expert",
-    image: "/images/team/matheus-ferrero.jpg",
+    name: "Kjetil Odin Johnsen",
+    role: "Chief Executive Officer",
+    country: "Norway",
+    image: "/images/team/kjetil.jpg",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -16,9 +17,10 @@ const teamMembers = [
     ],
   },
   {
-    name: "Eva Hudson",
-    role: "Blockchain Developer",
-    image: "/images/team/eva-hudson.jpg",
+    name: "Ståle B. Olsen",
+    role: "Chief Operating Officer",
+    country: "Norway",
+    image: "/images/team/stale.jpg",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -27,9 +29,10 @@ const teamMembers = [
     ],
   },
   {
-    name: "Jackie Sanders",
-    role: "Creative Designer",
-    image: "/images/team/jackie-sanders.jpg",
+    name: "Ashan Fernando",
+    role: "Chief Technology Officer",
+    country: "Sri Lanka",
+    image: "/images/team/ashan.jpg",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -38,9 +41,58 @@ const teamMembers = [
     ],
   },
   {
-    name: "Jackie Sanders",
-    role: "SEO Expert",
-    image: "/images/team/jackie-sanders2.jpg",
+    name: "Eden Ella",
+    role: "Chief AI Officer",
+    country: "Israel",
+    image: "/images/team/eden.jpg",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+  {
+    name: "Manoj Fernando",
+    role: "Chief Architect",
+    country: "Sri Lanka",
+    image: "/images/team/manoj.jpg",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+  {
+    name: "Amir Shalev",
+    role: "Chief UI/UX Officer",
+    country: "Germany",
+    image: "/images/team/chameera.jpg",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+  {
+    name: "Chameera Dulanga",
+    role: "Head of Engineering",
+    country: "Sri Lanka",
+    image: "/images/team/chameera.jpg",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+  {
+    name: "Nipuni Arunodi",
+    role: "Head of Finance",
+    country: "Sri Lanka",
+    image: "/images/team/nipuni.jpg",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -70,9 +122,9 @@ const OurTeam = () => {
           />
 
           <div className="mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2">
-            <span className="block text-primary font-semibold uppercase mb-2">Our Team</span>
+            <span className="block text-primary font-semibold uppercase mb-2">Meet Our Leadership</span>
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              Meet Our Team
+              The People Behind Our Success
             </h2>
             <p className="mx-auto lg:w-11/12">
               We are a diverse group of professionals with expertise in AI, cloud, UI&UX design, marketing, and more. Get to know the people who drive our innovation and success.
@@ -92,7 +144,8 @@ const OurTeam = () => {
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-black dark:text-white mb-1">{member.name}</h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-3">{member.role}</p>
+                <p className="text-gray-600 dark:text-gray-300 mb-2">{member.role}</p>
+                <p className="text-gray-500 text-sm mb-2">{member.country}</p>
                 <div className="flex justify-center gap-3">
                   {member.socials.map((social, i) => (
                     <a key={i} href={social.url} className="text-gray-400 hover:text-primary" target="_blank" rel="noopener noreferrer">
