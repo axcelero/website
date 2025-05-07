@@ -28,18 +28,18 @@ const teamMembers = [
       { icon: "fa-youtube", url: "#" },
     ],
   },
-  {
-    name: "Ståle B. Olsen",
-    role: "Chief Operating Officer",
-    country: "Norway",
-    image: "/images/team/stale.png",
-    socials: [
-      { icon: "fa-facebook", url: "#" },
-      { icon: "fa-twitter", url: "#" },
-      { icon: "fa-linkedin", url: "#" },
-      { icon: "fa-youtube", url: "#" },
-    ],
-  },
+  // {
+  //   name: "Ståle B. Olsen",
+  //   role: "Chief Operating Officer",
+  //   country: "Norway",
+  //   image: "/images/team/stale.png",
+  //   socials: [
+  //     { icon: "fa-facebook", url: "#" },
+  //     { icon: "fa-twitter", url: "#" },
+  //     { icon: "fa-linkedin", url: "#" },
+  //     { icon: "fa-youtube", url: "#" },
+  //   ],
+  // },
   {
     name: "Eden Ella",
     role: "Chief AI Officer",
@@ -87,7 +87,7 @@ const teamMembers = [
       { icon: "fa-linkedin", url: "#" },
       { icon: "fa-youtube", url: "#" },
     ],
-  },
+  }
 ];
 
 const OurTeam = () => {
@@ -115,8 +115,8 @@ const OurTeam = () => {
               We are a diverse group of professionals with expertise in AI, cloud, UI&UX design, marketing, and more. Get to know the people who drive our innovation and success.
             </p>
           </div>
-
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 px-4 md:px-8">
+ 
+         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 px-4 md:px-8">
             {teamMembers.map((member, idx) => (
               <div key={idx} className="bg-white dark:bg-blacksection rounded-lg p-6 text-center shadow-md">
                 <div className="flex justify-center mb-4">

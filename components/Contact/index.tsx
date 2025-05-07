@@ -198,15 +198,15 @@ const Contact = () => {
                   Email Address
                 </h3>
                 <p>
-                  <a href="mailto:hello@axcelero.com">hello@axcelero.com</a>
+                  <a href="mailto:hello@axcelero.com" className="underline text-primary hover:text-primary-dark">hello@axcelero.com</a>
                 </p>
               </div>
               <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Phone Number
                 </h4>
-                <p className="mb-2">
-                  <a href="tel:+4795216433">+47 952 16 433</a>
+                <p>
+                  <a href="tel:+4795216433" className="underline text-primary hover:text-primary-dark">+47 952 16 433</a>
                 </p>
               </div>
             </motion.div>
