@@ -17,18 +17,6 @@ const teamMembers = [
     ],
   },
   {
-    name: "Ståle B. Olsen",
-    role: "Chief Operating Officer",
-    country: "Norway",
-    image: "/images/team/stale.png",
-    socials: [
-      { icon: "fa-facebook", url: "#" },
-      { icon: "fa-twitter", url: "#" },
-      { icon: "fa-linkedin", url: "#" },
-      { icon: "fa-youtube", url: "#" },
-    ],
-  },
-  {
     name: "Ashan Fernando",
     role: "Chief Technology Officer",
     country: "Sri Lanka",
@@ -41,10 +29,10 @@ const teamMembers = [
     ],
   },
   {
-    name: "Eden Ella",
-    role: "Chief AI Officer",
-    country: "Israel",
-    image: "/images/team/eden.png",
+    name: "Ståle B. Olsen",
+    role: "Chief Operating Officer",
+    country: "Norway",
+    image: "/images/team/stale.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -53,10 +41,10 @@ const teamMembers = [
     ],
   },
   {
-    name: "Manoj Fernando",
-    role: "Chief Architect",
-    country: "Sri Lanka",
-    image: "/images/team/manoj.png",
+    name: "Eden Ella",
+    role: "Chief AI Officer",
+    country: "Israel",
+    image: "/images/team/eden.png",
     socials: [
       { icon: "fa-facebook", url: "#" },
       { icon: "fa-twitter", url: "#" },
@@ -122,10 +110,7 @@ const OurTeam = () => {
           />
 
           <div className="mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2">
-            <span className="block text-primary font-semibold uppercase mb-2">Meet Our Leadership</span>
-            <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              The People Behind Our Success
-            </h2>
+            <span className="block text-primary font-semibold uppercase mb-4">Meet Our Leadership</span>
             <p className="mx-auto lg:w-11/12">
               We are a diverse group of professionals with expertise in AI, cloud, UI&UX design, marketing, and more. Get to know the people who drive our innovation and success.
             </p>
