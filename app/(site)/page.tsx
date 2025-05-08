@@ -27,6 +27,7 @@ export default function Home() {
       {/* <Brands /> */}
       <Services />
       <OurTeam />
+      {/* <FeaturesTab /> */}
       {/* <CTA /> */}
       {/* <Testimonial /> */}
       {/* <Pricing /> */}

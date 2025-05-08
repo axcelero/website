@@ -15,13 +15,12 @@ const Hero = () => {
         </h1>
         <p className="mb-10 text-lg text-gray-700 dark:text-gray-200 md:text-xl">
          That transforms businesses to be more productive and efficient. </p>
-        <button
-          type="button"
-          onClick={() => launchCalendlyPopup()}
+        <a
+          href="mailto:hello@axcelero.com"
           className="inline-block rounded-full bg-primary px-8 py-4 text-lg font-semibold text-white shadow-lg transition-colors duration-300 hover:bg-primaryho focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
         >
-          Schedule a Call
-        </button>
+          Contact Us
+        </a>
       </div>
     </section>
   );
