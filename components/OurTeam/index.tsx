@@ -28,18 +28,18 @@ const teamMembers = [
       { icon: "fa-youtube", url: "#" },
     ],
   },
-  // {
-  //   name: "Ståle B. Olsen",
-  //   role: "Chief Operating Officer",
-  //   country: "Norway",
-  //   image: "/images/team/stale.png",
-  //   socials: [
-  //     { icon: "fa-facebook", url: "#" },
-  //     { icon: "fa-twitter", url: "#" },
-  //     { icon: "fa-linkedin", url: "#" },
-  //     { icon: "fa-youtube", url: "#" },
-  //   ],
-  // },
+  {
+    name: "Ståle B. Olsen",
+    role: "Chief Operating Officer",
+    country: "Norway (from July, 2025)",
+    image: "/images/team/stale.png",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
   {
     name: "Eden Ella",
     role: "Chief AI Officer",
