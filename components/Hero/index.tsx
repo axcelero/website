@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="relative flex items-center justify-center min-h-[50vh] bg-gradient-to-b from-[#f5f8ff] to-white text-center overflow-hidden">
       {/* Optional: Decorative background shapes can be added here if desired */}
-      <div className="mx-auto max-w-2xl px-4 pt-15">
+      <div className="mx-auto max-w-2xl px-4 pt-14 md:py-32">
         <h1 className="mb-6 text-4xl font-extrabold leading-tight text-black dark:text-white md:text-5xl lg:text-6xl">
           <span className="text-black">Crafting AI Solutions</span>
         </h1>
