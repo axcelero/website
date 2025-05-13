@@ -77,8 +77,20 @@ const teamMembers = [
     ],
   },
   {
-    name: "Nipuni Arunodi",
+    name: "Tone Henriksen",
     role: "Head of Finance",
+    country: "Norway",
+    image: "/images/team/tone.png",
+    socials: [
+      { icon: "fa-facebook", url: "#" },
+      { icon: "fa-twitter", url: "#" },
+      { icon: "fa-linkedin", url: "#" },
+      { icon: "fa-youtube", url: "#" },
+    ],
+  },
+  {
+    name: "Nipuni Arunodi",
+    role: "Head of Accounts",
     country: "Sri Lanka",
     image: "/images/team/nipuni.png",
     socials: [
