@@ -9,7 +9,7 @@
 </clipPath>
 </defs>
 <g id="surface1">
-<rect x="0" y="0" width="30" height="30" style="fill:rgb(10.980392%,9.803922%,10.196079%);fill-opacity:1;stroke:none;"/>
+<rect x="0" y="0" width="30" height="30" style="fill:#121212;fill-opacity:1;stroke:none;"/>
 <g clip-path="url(#clip1)" clip-rule="nonzero">
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(96.470588%,90.588236%,84.705883%);fill-opacity:1;" d="M 12.835938 15.511719 L 14.046875 13.410156 L 14.84375 14.789062 C 15.785156 14.496094 16.773438 14.242188 17.796875 14.039062 L 14.046875 7.546875 L 9.742188 15 L 7.683594 18.566406 C 9.082031 17.363281 10.828125 16.328125 12.835938 15.511719 "/>
 </g>
