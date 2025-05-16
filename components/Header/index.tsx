@@ -31,7 +31,7 @@ const Header = () => {
     <header
       className={`fixed left-0 top-0 z-99999 w-full py-7 ${
         stickyMenu
-          ? "bg-white py-4! shadow-sm transition duration-100 dark:bg-black"
+          ? "bg-black py-4! shadow-sm transition duration-100 dark:bg-black"
           : ""
       }`}
     >
@@ -52,7 +52,7 @@ const Header = () => {
               height={30}
               className="w-full dark:hidden"
             />
-            <span className="text-2xl font-bold text-black">Axcelero</span>
+            <span className="text-2xl font-bold text-white">Axcelero</span>
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
